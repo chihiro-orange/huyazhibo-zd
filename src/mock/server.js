@@ -1,0 +1,10 @@
+let express = require('express')
+let app = express()
+let cors = require('cors')
+let bodyParser = require('body-parser')
+app.use(bodyParser.urlencoded({extended:false}))
+app.use(bodyParser.json())
+app.use(cors())
+app.listen(7000,()=>{
+    console.log('后台启动成功：7000')
+})
