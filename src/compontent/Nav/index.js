@@ -9,7 +9,7 @@ export default class Index extends Component {
                 <div className="left">
                     <ul>
                         <li>
-                            <NavLink to="/home">首页</NavLink>
+                            <NavLink to="/home" exact>首页</NavLink>
                         </li>
                         <li>
                             <NavLink to="/home/honor">

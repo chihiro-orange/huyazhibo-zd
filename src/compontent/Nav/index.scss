@@ -17,9 +17,12 @@
                 display: flex;
                 align-items: center;
                 box-sizing: border-box;
-                &.active{
-                    border:2px orange solid;
-                    color: orange;
+                a{
+                    color: black;
+                    &.active{
+                        border-bottom:2px orange solid;
+                        color: orange;
+                    }
                 }
             }
         }
